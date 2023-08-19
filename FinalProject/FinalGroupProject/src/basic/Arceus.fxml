@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/maxresdefault%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="222.0" layoutY="25.0" prefHeight="143.0" prefWidth="354.0">
+         <children>
+            <Label layoutX="6.0" layoutY="4.0" prefHeight="21.0" prefWidth="39.0" text="Arceus" textFill="WHITE" />
+
+
+<Text fx:id="text1" fill="WHITE" layoutX="10.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="333.33673095703125" />
+<Text fx:id="text2" fill="WHITE" layoutX="10.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="322.9366455078125" />
+
+
+
+         </children>
+      </Pane>
+      <Label layoutX="21.0" layoutY="182.0" text="Breeding : " textFill="WHITE" />
+      <Label layoutX="21.0" layoutY="226.0" opacity="0.75" prefHeight="18.0" prefWidth="47.0" text="Gender  " textFill="WHITE" />
+      <Label layoutX="98.0" layoutY="226.0" prefHeight="18.0" prefWidth="30.0" text="Male" textFill="WHITE" />
+      <Label layoutX="21.0" layoutY="263.0" prefHeight="18.0" prefWidth="57.0" text="Training :" textFill="WHITE" />
+      <Text fill="WHITE" layoutX="22.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No need of Trainning" wrappingWidth="200.0" />
+      <Text fill="WHITE" layoutX="22.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Because he is God." wrappingWidth="200.0" />
+      <ImageView fitHeight="200.0" fitWidth="295.0" layoutX="222.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/WhatsApp%20Image%202023-08-10%20at%2010.04.09.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="161.0" fitWidth="263.0" layoutX="248.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/godpower.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

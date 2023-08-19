@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="newPageAnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="basic.PokemonController">
+
+    <children>
+        <Label fx:id="messageLabel" alignment="TOP_CENTER" layoutX="482.0" layoutY="31.0" prefHeight="27.0" prefWidth="91.0" style="-fx-background-color: black;" text="Pokedex" textFill="RED" underline="true">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+      <ImageView fitHeight="62.0" fitWidth="62.0" layoutX="23.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/pokeball.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="37.0" layoutY="181.0" prefHeight="73.0" prefWidth="136.0" style="-fx-background-color: yellow;">
+         <children>
+            <ImageView fitHeight="37.0" fitWidth="197.0" layoutX="80.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tumblr_mm59na5Zlj1snxs87o1_500.gif" />
+               </image>
+            </ImageView>
+            <Label fx:id="messageLabel1" alignment="TOP_CENTER" layoutX="7.0" layoutY="1.0" opacity="0.76" prefHeight="27.0" prefWidth="122.0" style="-fx-background-color: yellow;" text="Pikachu  #001">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="button2" graphicTextGap="1.0" layoutX="14.0" layoutY="38.0" minHeight="21.0" mnemonicParsing="false" onAction="#handleButton2Action" prefHeight="27.0" prefWidth="54.0" style="-fx-background-color: yellow; -fx-text-fill: black;" text="MORE" textAlignment="CENTER" />
+         </children>
+      </Pane>
+      <Pane layoutX="425.0" layoutY="181.0" prefHeight="73.0" prefWidth="136.0" style="-fx-background-color: orange;">
+         <children>
+            <ImageView fitHeight="37.0" fitWidth="197.0" layoutX="96.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/giphy%20(1).gif" />
+               </image>
+            </ImageView>
+            <Label fx:id="messageLabel11" alignment="TOP_CENTER" layoutX="7.0" layoutY="1.0" opacity="0.76" prefHeight="27.0" prefWidth="122.0" style="-fx-background-color: orange;" text="Charmander #003">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button graphicTextGap="1.0" layoutX="14.0" layoutY="38.0" minHeight="21.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="54.0" style="-fx-background-color: orange; -fx-text-fill: black;" text="MORE" textAlignment="CENTER" />
+         </children>
+      </Pane>
+      <Pane layoutX="232.0" layoutY="181.0" prefHeight="73.0" prefWidth="136.0" style="-fx-background-color: blue;">
+         <children>
+            <ImageView fitHeight="37.0" fitWidth="197.0" layoutX="79.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/giphy%20(2).gif" />
+               </image>
+            </ImageView>
+            <Label fx:id="messageLabel111" alignment="TOP_CENTER" layoutX="7.0" layoutY="1.0" opacity="0.76" prefHeight="27.0" prefWidth="122.0" style="-fx-background-color: blue;" text="Squirtle #002">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button graphicTextGap="1.0" layoutX="14.0" layoutY="38.0" minHeight="21.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="54.0" style="-fx-background-color: blue; -fx-text-fill: black;" text="MORE" textAlignment="CENTER" />
+         </children>
+      </Pane>
+      <Pane layoutX="37.0" layoutY="287.0" prefHeight="73.0" prefWidth="136.0" style="-fx-background-color: green;">
+         <children>
+            <ImageView fitHeight="37.0" fitWidth="197.0" layoutX="79.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/R.gif" />
+               </image>
+            </ImageView>
+            <Label fx:id="messageLabel1111" alignment="TOP_CENTER" layoutX="7.0" layoutY="1.0" opacity="0.76" prefHeight="27.0" prefWidth="122.0" style="-fx-background-color: green;" text="Bulbasaur #004">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button graphicTextGap="1.0" layoutX="14.0" layoutY="38.0" minHeight="21.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="54.0" style="-fx-background-color: green; -fx-text-fill: black;" text="MORE" textAlignment="CENTER" />
+         </children>
+      </Pane>
+      <Pane layoutX="232.0" layoutY="287.0" prefHeight="73.0" prefWidth="136.0" style="-fx-background-color: pink;">
+         <children>
+            <ImageView fitHeight="37.0" fitWidth="197.0" layoutX="79.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/R%20(1).gif" />
+               </image>
+            </ImageView>
+            <Label fx:id="messageLabel1112" alignment="TOP_CENTER" layoutX="7.0" layoutY="1.0" opacity="0.76" prefHeight="27.0" prefWidth="122.0" style="-fx-background-color: pink;" text="Mew #005">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button graphicTextGap="1.0" layoutX="14.0" layoutY="38.0" minHeight="21.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="54.0" style="-fx-background-color: pink; -fx-text-fill: black;" text="MORE" textAlignment="CENTER" />
+         </children>
+      </Pane>
+      <Pane layoutX="425.0" layoutY="287.0" prefHeight="73.0" prefWidth="136.0" style="-fx-background-color: brown;">
+         <children>
+            <ImageView fitHeight="37.0" fitWidth="197.0" layoutX="68.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tumblr_f1c3688280f7294a43ad6bb0c7b451c7_69a53e88_500.gif" />
+               </image>
+            </ImageView>
+            <Label fx:id="messageLabel111211" alignment="TOP_CENTER" layoutX="7.0" layoutY="1.0" opacity="0.76" prefHeight="27.0" prefWidth="122.0" style="-fx-background-color: brown;" text="Mew #006">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button graphicTextGap="1.0" layoutX="14.0" layoutY="38.0" minHeight="21.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="54.0" style="-fx-background-color: brown; -fx-text-fill: black;" text="MORE" textAlignment="CENTER" />
+         </children>
+      </Pane>
+      <Pane layoutX="175.0" layoutY="66.0" prefHeight="95.0" prefWidth="243.0" style="-fx-background-color: silver;">
+         <children>
+            <Label fx:id="messageLabel112" alignment="TOP_CENTER" layoutX="61.0" layoutY="6.0" opacity="0.76" prefHeight="27.0" prefWidth="122.0" style="-fx-background-color: silver;" text="Arceus #000">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="button1" graphicTextGap="1.0" layoutX="34.0" layoutY="48.0" minHeight="21.0" mnemonicParsing="false" onAction="#handleButton1Action" prefHeight="27.0" prefWidth="54.0" style="-fx-background-color: silver; -fx-text-fill: black;" text="GOD" textAlignment="CENTER" />
+            <ImageView fitHeight="62.0" fitWidth="110.0" layoutX="133.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/arceus.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>
